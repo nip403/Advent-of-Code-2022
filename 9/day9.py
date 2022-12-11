@@ -133,5 +133,3 @@ def part2():
             tail_coords.add(turn)
 
     return len(tail_coords)
-
-print(part2())
