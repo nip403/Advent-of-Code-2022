@@ -103,3 +103,7 @@ def part2():
     moves = translate(getinput())
 
     return sum(calcscore(m) for m in moves)
+
+if __name__ == "__main__":
+    print("Part 2:", part1())
+    print("Part 2:", part2())
