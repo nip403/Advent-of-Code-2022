@@ -56,3 +56,7 @@ def part2():
             render += " "
 
     return render
+
+if __name__ == "__main__":
+    print("Part 2:", part1())
+    print("Part 2:", part2())
