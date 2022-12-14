@@ -22,3 +22,7 @@ def part2():
         top3.append(calories.pop(pos))
 
     return sum(top3)
+
+if __name__ == "__main__":
+    print("Part 2:", part1())
+    print("Part 2:", part2())
