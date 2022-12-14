@@ -29,3 +29,7 @@ def part2():
     stream = getinput()
 
     return find_marker(stream, 14)
+
+if __name__ == "__main__":
+    print("Part 2:", part1())
+    print("Part 2:", part2())
