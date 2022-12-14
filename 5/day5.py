@@ -82,4 +82,6 @@ def part2():
 
     return "".join([" " if not len(stacks[i]) else stacks[i][-1] for i in range(1, 10)])
 
-print(part2())
+if __name__ == "__main__":
+    print("Part 2:", part1())
+    print("Part 2:", part2())
