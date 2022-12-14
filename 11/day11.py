@@ -103,3 +103,7 @@ def part2(rounds=10000):
     inspection_count = sorted([m.inspections for m in monkeys])
 
     return inspection_count[-1] * inspection_count[-2]
+
+if __name__ == "__main__":
+    print("Part 2:", part1())
+    print("Part 2:", part2())
