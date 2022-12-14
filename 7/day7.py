@@ -95,3 +95,7 @@ def part2():
     for i in sorted(all_dirs.values()):
         if i >= to_empty:
             return i
+
+if __name__ == "__main__":
+    print("Part 2:", part1())
+    print("Part 2:", part2())
