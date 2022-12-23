@@ -6,12 +6,15 @@ def getinput():
 
     return data
 
+def parse_data(data):
+    return
+
 def part1():
-    data = getinput()
+    data = parse_data(getinput())
     return
 
 def part2():
-    data = getinput()
+    data = parse_data(getinput())
     return
     
 if __name__ == "__main__":
